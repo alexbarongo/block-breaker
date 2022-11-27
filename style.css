@@ -1,0 +1,116 @@
+:root{
+	--color1: #cabac8;
+	--color2: #ff101f;
+	--color3: #b2ddf7;
+	--color4: #81d6e3;
+	--color5: #4cb5ae;
+	--color6: #ffffff;
+	--color7: #000000;
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: Sawasdee
+}
+
+#container{
+	width: 90%;
+	padding: 0;
+	margin: 20px auto;
+}
+
+h1{
+	color: var(--color2);
+}
+
+span{
+	color: var(--color5);
+}
+
+#grid{
+	position: absolute;
+	width: 560px;
+	height: 300px;
+	margin: 80px auto;
+	padding: 5px;
+	border: 5px solid var(--color3);
+	background: linear-gradient(180deg, var(--color1), var(--color3));
+}
+
+.block{
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	background-color: var(--color5)
+}
+
+.user{
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	background-color: var(--color1)
+}
+
+.ball{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: var(--color2)
+}
+
+#setup{
+	margin: 5px auto;
+	padding: 0;
+}
+
+button{
+	padding: 5px;
+	margin: 5px auto;
+	border: 1px solid var(--color3);
+	border-radius: 5px;
+}
+
+.easy{
+	color: var(--color6);
+	background: linear-gradient(90deg, var(--color4), var(--color1))
+}
+
+.easy:hover{
+	color: var(--color2);
+	border: 1px solid var(--color2);
+}
+
+.normal{
+	color: var(--color6);
+	background-color: var(--color1);
+}
+
+.normal:hover{
+	color: var(--color2);
+	border: 1px solid var(--color2);
+}
+
+.hard{
+	color: var(--color6);
+	background: linear-gradient(90deg, var(--color1), var(--color4))
+}
+
+.hard:hover{
+	color: var(--color2);
+	border: 1px solid var(--color2);
+}
+
+.reset{
+	display: none;
+	color: var(--color6);
+	background: linear-gradient(90deg, var(--color1), var(--color5), var(--color1))
+}
+
+.reset:hover{
+	color: var(--color2);
+	border: 1px solid var(--color2);
+}
